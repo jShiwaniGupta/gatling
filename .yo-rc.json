@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "jShiwaniGupta",
+    "baseName": "gatling",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.6.2",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "eb5474632c6118bff5257944f3ea78774ac353be",
+    "jhiPrefix": "jhi"
+  }
+}
